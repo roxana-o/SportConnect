@@ -1,62 +1,64 @@
-# SportConnect - aplicație mobilă 
+# SportConnect - Mobile App
 
-SportConnect este o aplicație mobilă dezvoltată utilizând limbajul de programare Dart, framework-ul Flutter și serviciile oferite de Google Firebase.
 
-Adresa repository-ului: https://github.com/roxana-o/SportConnect.git
+SportConnect is a mobile app designed to connect people through sports events, developed using Dart, the Flutter framework and Google Firebase services. It provides updated information on competitions, contests and conferences, making it easy to stay informed and plan effectively. Users can also create and promote their own events, adding variety and visibility to lesser-known initiatives. The app features challenges and virtual rewards to keep users motivated and engaged. With its intuitive interface, SportConnect creates a virtual community where sports enthusiasts can interact and inspire each other.
 
-## Precondiții de configurare:
-**Dart** <br> (link de instalare: https://dart.dev/get-dart) </br>
+App Functionality: https://drive.google.com/file/d/1qbnFP6eX-RLEJYLfK28FNevRaChCAbpm/view?usp=sharing
 
-**Flutter** cu versiunea 2.0 sau o versiune mai recentă 
-<br> (link de instalare: https://flutter.dev/docs/get-started/install) </br>
+## Setup Prerequisites:
+**Dart** <br> (Installation link:: https://dart.dev/get-dart) </br>
 
-**Visual Studio Code** sau un alt editor de cod 
-<br> (link de instalare: https://code.visualstudio.com/ </br>
+**Flutter** version 2.0 or later
+<br> (Installation link:: https://flutter.dev/docs/get-started/install) </br>
 
-**Android Studio** sau un alt mediu de dezvoltare pentru aplicații mobile 
-<br> (link de instalare: https://developer.android.com/studio) </br>
+**Visual Studio Code** or another code editor
+<br> (Installation link:: https://code.visualstudio.com/ </br>
+
+**Android Studio** or another mobile development environment
+<br> (Installation link:: https://developer.android.com/studio) </br>
 
 ## Pași de configurare:
 
-### I. Asigurați-vă că îndepliniți precondițiile prezentate mai sus
-1. Consultați ghidul oficial pentru instalarea Dart și Flutter:
-   <br> https://docs.flutter.dev/get-started/install/windows/mobile . </br>
-2. Instalați tehnologiile care lipsesc.
+### I. Ensure Prerequisites are Met
+1. Follow the official guide to install Dart and Flutter:
+https://docs.flutter.dev/get-started/install/windows/mobile
+2. Install any missing technologies.
 
-### II. Instalați componentele plugin Dart și Flutter în Visual Studio Code 
-1. Lansați în execuție Visual Studio Code și apăsați pe pictograma _Extensii_ din _Bara de activități_ pentru a merge la secțiunea de extensii.
-2. Căutați Dart și apăsați pe _Instalează_.
-3. Căutați Flutter și apăsați pe _Instalează_.
+### II. Install Dart and Flutter Plugins in Visual Studio Code
+1. Open Visual Studio Code and go to the Extensions section by clicking the Extensions icon in the sidebar.
+2. Search for Dart and click Install.
+3. Search for Flutter and click Install.
 
-### IV. Configurați Flutter
-1. Accesați meniul _Terminal > Terminal Nou_ pentru a deschide terminalul.
-2. Executați comanda _flutter doctor_ pentru a verifica succesul instalării.
+### III. Configure Flutter
+1. Open the terminal via Terminal > New Terminal.
+2. Run the command flutter doctor to verify the installation.
 
-### V. Obțineți aplicația din github 
-1. Deschideți terminalul.
-2. Executați comanda _git clone https://github.com/roxana-o/SportConnect.git_ pentru a clona repository-ul aplicației.
+### IV. Obtain the App from GitHub
+1. Open the terminal.
+2. Run git clone https://github.com/roxana-o/SportConnect.git to clone the repository.
 
-### VI. Instalați și actualizați dependențele
-1. Deschideți terminalul.
-2. Executați comanda _flutter pub get_.
+### V. Install and Update Dependencies
+1. Open the terminal.
+2. Run flutter pub get.
+   
+### VI. Configure a Virtual Device
+1. Open Android Studio.
+2. Go to Virtual Device Manager.
+3. Select Create Virtual Device.
+4. Set the device properties (device definition, system image, configuration) and click Finish.
 
-### VI. Configurați un dispozitiv virtual
-1. Deschideți Android Studio.
-2. Accesați _Virtual Device Manager_.
-3. Alegeți opțiunea _Create Virtual Device_.
-4. Setați proprietățile dispozitivului (definiția dispozitivului, imaginea de sistem, configurația) și dați _Finish_.
+### VII. Add the Device in Visual Studio Code
+1. Open Visual Studio Code.
+2. Click on the No device message at the bottom of the window.
+3. Select the virtual device configured in Android Studio.
 
-### VI. Adăugați dispozitivul în Visual Studio Code
-1. Deschideți Visual Studio Code.
-2. Apăsați pe mesajul _No device_ din partea de jos a paginii.
-3. Alegeți din lista propusă dispozitivul virtual configurat în Android Studio la pasul precedent.
+### VIII. Launch the App
+1. Ensure a virtual device is added in Visual Studio Code.
+2. Click the Run button to launch the app.
 
-### VI. Lansați aplicația
-1. Asigurați-vă că există un dispozitiv virtual adăugat în Visual Studio Code.
-2. Apăsați butonul _Run_ pentru a lansa aplicația.
+## Important Folders and Files:
+**lib** - Contains the source code of the app, with the main file being main.dart. </br>
+**android** - Contains platform-specific configurations for Android. </br>
+**build** - Contains files automatically generated during the build process. </br>
+**pubspec.yaml** - Contains project information (name, version) and dependencies. </br>
 
-## Foldere și fișiere importante:
-**lib** - conține codul sursă al aplicației, fișierul principal este _main.dart_. </br>
-**android** - conține configurațiile specifice pentru platforma Android. </br>
-**build** - conține fișierele generate automat în timpul procesului de build. </br>
-**pubspec.yaml** - fișier care conține informații despre proiect (nume, versiune) și dependențele. </br>
